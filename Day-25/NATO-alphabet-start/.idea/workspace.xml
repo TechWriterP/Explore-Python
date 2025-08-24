@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3f4cfb4e-0fae-4ea3-8c19-674dd71c0396" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/NATO-alphabet-start.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-25-start/.idea/day-25-start.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-25-us-states-game-start/.idea/day-25-us-states-game-start.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Learning_Log.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Learning_Log.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day-25-start/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day-25-start/.idea/day-25-start.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day-25-start/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day-25-start/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day-25-start/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day-25-start/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day-25-start/2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day-25-start/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day-25-start/weather_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day-25-us-states-game-start/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day-25-us-states-game-start/.idea/day-25-us-states-game-start.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day-25-us-states-game-start/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day-25-us-states-game-start/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day-25-us-states-game-start/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day-25-us-states-game-start/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day-25-us-states-game-start/50_states.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day-25-us-states-game-start/blank_states_img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day-25-us-states-game-start/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day-25-us-states-game-start/states_to_learn.csv" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="31jorjuWiP7clueM4pKCdUUzFeX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Nahul/OneDrive/Desktop/Explore-Python/Day-25/NATO-alphabet-start"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d9fa9deec7cb-d902c0275401-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.23892.515" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f4cfb4e-0fae-4ea3-8c19-674dd71c0396" name="Changes" comment="" />
+      <created>1756047044274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756047044274</updated>
+    </task>
+    <servers />
+  </component>
+</project>
