@@ -199,3 +199,40 @@
 - Course: Day 26 – NATO Alphabet Project  
 - Docs: [Pandas DataFrame.iterrows()](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.iterrows.html)  
 - Docs: [Python List Comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
+
+# 🐍 100 Days of Code - Python Bootcamp (Angela Yu)
+
+## 📅 Day 27: Tkinter and GUI Programs
+
+### ✅ What I Learned Today
+- [x] Introduction to **Tkinter**, Python’s built-in GUI library  
+- [x] Creating a window with `Tk()`  
+- [x] Adding **labels**, **buttons**, and **entry fields**  
+- [x] Using `.pack()`, `.place()`, and `.grid()` for widget layout  
+- [x] Updating label text dynamically with `.config()`  
+- [x] Getting user input from `Entry()` fields with `.get()`  
+- [x] Using functions as button callbacks (event-driven programming)  
+
+### 🛠️ Project / Exercise
+**Project Name:** Mile to Kilometer Converter  
+**Description:**  
+- Simple GUI app using Tkinter.  
+- User enters miles in a text box, clicks a button, and sees the equivalent in kilometers displayed.  
+
+**My Code:**  
+[Link to my code](./Day27_MileToKmConverter/main.py)
+
+### 💡 Challenges I Faced
+- [x] Forgetting to call `mainloop()` → window didn’t stay open  
+- [x] Mixing up `.pack()` and `.grid()` in the same window → caused errors  
+- [x] Not converting `Entry.get()` (string) to float before doing math  
+
+### 🚀 Extensions / Improvements
+- [ ] Add conversion in both directions (Miles → KM, KM → Miles)  
+- [ ] Add input validation (only allow numbers)  
+- [ ] Improve UI with padding, fonts, and colors  
+
+### 📖 Resources
+- Course: Day 27 – Tkinter, *args, kwargs, and GUI Programs  
+- Docs: [Tkinter Documentation](https://docs.python.org/3/library/tkinter.html)  
+- Tkinter Layouts: [pack vs grid](https://tkdocs.com/tutorial/grid.html)
