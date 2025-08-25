@@ -5,33 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f4cfb4e-0fae-4ea3-8c19-674dd71c0396" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/NATO-alphabet-start.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-25-start/.idea/day-25-start.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-25-us-states-game-start/.idea/day-25-us-states-game-start.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Learning_Log.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Learning_Log.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-25-start/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-25-start/.idea/day-25-start.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-25-start/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-25-start/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-25-start/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-25-start/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-25-start/2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-25-start/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-25-start/weather_data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-25-us-states-game-start/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-25-us-states-game-start/.idea/day-25-us-states-game-start.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-25-us-states-game-start/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-25-us-states-game-start/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-25-us-states-game-start/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-25-us-states-game-start/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-25-us-states-game-start/50_states.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-25-us-states-game-start/blank_states_img.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-25-us-states-game-start/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-25-us-states-game-start/states_to_learn.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

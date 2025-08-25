@@ -163,3 +163,39 @@
 - Course: Day 5 – Python Loops
 - Docs: [`random`](https://docs.python.org/3/library/random.html)
 
+# 🐍 100 Days of Code - Python Bootcamp (Angela Yu)
+
+## 📅 Day 26: NATO Alphabet Project
+
+### ✅ What I Learned Today
+- [x] Python **list comprehensions** for quick list creation  
+- [x] **Dictionary comprehensions** for transforming data  
+- [x] Reading CSV files with **Pandas**  
+- [x] Iterating over Pandas DataFrames (`iterrows()`)  
+- [x] Handling user input with **exception handling** (`try/except`)  
+- [x] Converting strings into lists (`list(string)` and `[letter for letter in word]`)  
+
+### 🛠️ Project / Exercise
+**Project Name:** NATO Alphabet Project  
+**Description:**  
+- Read a CSV file (`nato_phonetic_alphabet.csv`) into a Pandas DataFrame.  
+- Convert it into a dictionary mapping each letter to its NATO code word.  
+- Ask the user for a word and output the NATO code words for each letter.  
+- Handle invalid inputs (non-alphabet characters).  
+
+**My Code:**  
+[Link to my code](./Day26_NATOAlphabet/main.py)
+
+### 💡 Challenges I Faced
+- [x] Forgetting `.upper()` when matching input with dictionary keys  
+- [x] Handling non-alphabet characters (numbers/symbols) without crashing → solved with `try/except` and recursion  
+
+### 🚀 Extensions / Improvements
+- [ ] Accept full sentences (ignore spaces and punctuation)  
+- [ ] Export generated NATO words to a `.txt` file  
+- [ ] Add an option to pronounce words using `pyttsx3` (text-to-speech)  
+
+### 📖 Resources
+- Course: Day 26 – NATO Alphabet Project  
+- Docs: [Pandas DataFrame.iterrows()](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.iterrows.html)  
+- Docs: [Python List Comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
