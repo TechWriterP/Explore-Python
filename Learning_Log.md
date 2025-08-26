@@ -236,3 +236,82 @@
 - Course: Day 27 – Tkinter, *args, kwargs, and GUI Programs  
 - Docs: [Tkinter Documentation](https://docs.python.org/3/library/tkinter.html)  
 - Tkinter Layouts: [pack vs grid](https://tkdocs.com/tutorial/grid.html)
+
+# 🐍 100 Days of Code - Python Bootcamp (Angela Yu)
+
+## 📅 Day 28: Pomodoro Timer App
+
+### ✅ What I Learned Today
+- [x] More practice with **Tkinter widgets** (labels, buttons, canvas)  
+- [x] Using the **Canvas widget** to display images and text  
+- [x] Tkinter **`after()` method** for scheduling functions (like a timer)  
+- [x] Canceling scheduled events with `.after_cancel()`  
+- [x] Implementing **countdown timers** with recursion-style functions  
+- [x] Understanding the **Pomodoro Technique** (25-5-25-5-25-5-25-15 cycle)  
+- [x] Using global constants for settings (work time, short break, long break)  
+
+### 🛠️ Project / Exercise
+**Project Name:** Pomodoro Timer  
+**Description:**  
+- A Tkinter app that runs a productivity timer.  
+- Counts down work sessions (25 min), short breaks (5 min), and long breaks (15 min) after 4 cycles.  
+- Displays checkmarks ✅ after each completed session.  
+
+**My Code:**  
+[Link to my code](./Day28_PomodoroTimer/main.py)
+
+### 💡 Challenges I Faced
+- [x] Forgetting to use `global` keyword for variables modified inside functions  
+- [x] Understanding how `.after()` works differently from `time.sleep()`  
+- [x] Resetting the timer correctly without overlapping scheduled calls  
+
+### 🚀 Extensions / Improvements
+- [ ] Add a **Pause/Resume** button  
+- [ ] Allow user to set custom work/break durations  
+- [ ] Play a sound notification when timer ends  
+- [ ] Improve UI with colors, fonts, and icons  
+
+### 📖 Resources
+- Course: Day 28 – Tkinter, Dynamic Typing, and the Pomodoro GUI App  
+- Docs: [Tkinter Canvas](https://tkdocs.com/tutorial/canvas.html)  
+- Pomodoro Technique: [Official Site](https://francescocirillo.com/pages/pomodoro-technique)
+
+# 🐍 100 Days of Code - Python Bootcamp (Angela Yu)
+
+## 📅 Day 29: Password Manager GUI App (Part 1)
+
+### ✅ What I Learned Today
+- [x] Tkinter **Entry widgets** for user input  
+- [x] Tkinter **Label and Button widgets** for layout  
+- [x] Generating random strong passwords (reuse logic from Day 5 project)  
+- [x] Adding a **Copy to Clipboard** feature using `pyperclip`  
+- [x] Writing user data (website, email/username, password) to a `.txt` file  
+- [x] Using `.delete(0, END)` to clear Entry fields after saving  
+
+### 🛠️ Project / Exercise
+**Project Name:** Password Manager (GUI)  
+**Description:**  
+- Tkinter-based app for storing passwords.  
+- User enters a website, email/username, and password.  
+- App can generate a random password and copy it to clipboard.  
+- Data is saved to a text file (`data.txt`).  
+
+**My Code:**  
+[Link to my code](./Day29_PasswordManager/main.py)
+
+### 💡 Challenges I Faced
+- [x] Forgetting to strip input values before saving → fixed with `.get().strip()`  
+- [x] Handling empty fields (website/email/password) → solved by adding simple validation  
+- [x] Ensuring password was copied automatically → solved with `pyperclip.copy(password)`  
+
+### 🚀 Extensions / Improvements
+- [ ] Save data in **JSON format** (to allow retrieval by website)  
+- [ ] Add a search feature to look up saved credentials  
+- [ ] Add error handling when saving/loading files  
+- [ ] Improve UI (grid padding, alignment, colors)  
+
+### 📖 Resources
+- Course: Day 29 – Building a Password Manager GUI App with Tkinter  
+- Docs: [Tkinter Entry](https://tkdocs.com/tutorial/widgets.html#entry)  
+- Docs: [pyperclip](https://pypi.org/project/pyperclip/)  
+- Python File I/O: [open()](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
