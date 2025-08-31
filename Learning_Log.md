@@ -315,3 +315,85 @@
 - Docs: [Tkinter Entry](https://tkdocs.com/tutorial/widgets.html#entry)  
 - Docs: [pyperclip](https://pypi.org/project/pyperclip/)  
 - Python File I/O: [open()](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
+
+# 🐍 100 Days of Code - Python Bootcamp (Angela Yu)
+
+## 📅 Day 30: Password Manager with Error Handling and JSON Data
+
+### ✅ What I Learned Today
+- [x] Writing and reading data in **JSON format** using the `json` module  
+- [x] Updating JSON data without overwriting existing entries  
+- [x] Using **try/except** blocks for error handling (e.g., file not found)  
+- [x] Nested `try/except` for handling missing keys in JSON data  
+- [x] Using `dict.update()` to merge new data into existing JSON file  
+- [x] Exception handling best practices: specific exceptions > bare `except`  
+
+### 🛠️ Project / Exercise
+**Project Name:** Password Manager (Enhanced with JSON + Error Handling)  
+**Description:**  
+- Save and retrieve credentials in a `data.json` file.  
+- Each website is stored as a key, with values for email/username and password.  
+- Handle missing JSON file gracefully by creating one automatically.  
+- Add a **search feature**: user enters a website name, app shows stored credentials if found.  
+
+**My Code:**  
+[Link to my code](./Day30_PasswordManager_JSON/main.py)
+
+### 💡 Challenges I Faced
+- [x] Forgetting to open JSON file in read mode before updating → fixed by using `with open("data.json", "r")`  
+- [x] `json.decoder.JSONDecodeError` when file was empty → solved by initializing with an empty dict `{}`  
+- [x] KeyError when searching for a website not in data → fixed with `if website in data:`  
+
+### 🚀 Extensions / Improvements
+- [ ] Mask passwords in UI (show as dots but allow reveal button)  
+- [ ] Add a “Copy Password” button directly in search results  
+- [ ] Implement secure encryption before saving (using `cryptography` library)  
+- [ ] Sync data with cloud storage (Google Drive/Dropbox API)  
+
+### 📖 Resources
+- Course: Day 30 – Errors, Exceptions, JSON Data, and Improving the Password Manager  
+- Docs: [Python json module](https://docs.python.org/3/library/json.html)  
+- Error Handling: [try/except](https://docs.python.org/3/tutorial/errors.html)  
+- Best Practice: [Don’t use bare except](https://realpython.com/the-most-diabolical-python-antipattern/)
+
+# 🐍 100 Days of Code - Python Bootcamp (Angela Yu)
+
+## 📅 Day 31: Flashcard Capstone Project
+
+### ✅ What I Learned Today
+- [x] Using **Tkinter Canvas** to display images and text dynamically  
+- [x] Layering canvas elements (background + text on top)  
+- [x] Tkinter `.after()` for timed card flips (e.g., 3 seconds)  
+- [x] Working with **Pandas DataFrame** to load CSV files  
+- [x] Converting DataFrame rows into dictionaries/lists for random choice  
+- [x] Saving progress by writing updated CSV files (words-to-learn list)  
+- [x] Handling file-not-found with try/except to initialize app state  
+
+### 🛠️ Project / Exercise
+**Project Name:** Flashcard App  
+**Description:**  
+- GUI app to help learn words (French → English).  
+- Shows a French word for 3 seconds, then flips to show English translation.  
+- User can click ✔️ if they know the word (it’s removed from the list).  
+- Progress is saved in a `words_to_learn.csv` file, so next run only shows unknown words.  
+
+**My Code:**  
+[Link to my code](./Day31_FlashcardApp/main.py)
+
+### 💡 Challenges I Faced
+- [x] Forgetting to cancel previous `.after()` calls → caused overlapping timers  
+- [x] `KeyError` when trying to access DataFrame columns incorrectly → fixed with correct keys  
+- [x] Ensuring the app loads from `words_to_learn.csv` if it exists, otherwise fallback to `french_words.csv`  
+
+### 🚀 Extensions / Improvements
+- [ ] Add multiple languages (English–Spanish, English–Hindi, etc.)  
+- [ ] Track learning stats (total learned, total remaining, % progress)  
+- [ ] Add option to reset progress (start fresh)  
+- [ ] Improve UI: larger fonts, better styling, color themes  
+
+### 📖 Resources
+- Course: Day 31 – Capstone Project: Flashcard App  
+- Docs: [Tkinter Canvas](https://tkdocs.com/tutorial/canvas.html)  
+- Docs: [Pandas DataFrame.to_dict()](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_dict.html)  
+- Article: [The Forgetting Curve & Spaced Repetition](https://www.sciencedirect.com/topics/neuroscience/spacing-effect)
+
