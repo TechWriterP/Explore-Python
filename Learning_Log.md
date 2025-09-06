@@ -534,3 +534,45 @@
 - Docs: [Requests Library](https://docs.python-requests.org/en/latest/)  
 - API: [Open Notify ISS API](http://open-notify.org/Open-Notify-API/ISS-Location-Now/)  
 - API: [Sunrise Sunset](https://sunrise-sunset.org/api)
+
+# 🐍 100 Days of Code - Python Bootcamp (Angela Yu)
+
+## 📅 Day 34: API Practice with Quiz Project
+
+### ✅ What I Learned Today
+- [x] How to fetch trivia questions from the **Open Trivia Database API**  
+- [x] Parsing **JSON** data to extract question text and correct answers  
+- [x] Handling HTML entities (e.g., `&quot;` → `"`, `&#039;` → `'`) using `html.unescape()`  
+- [x] Building a **Quiz Brain class** to manage game logic  
+- [x] Integrating Tkinter GUI with API-driven content  
+- [x] Using Canvas to display questions and update dynamically  
+- [x] Changing button colors (green/red) to give instant feedback  
+- [x] Keeping and displaying the **score** in the UI  
+
+### 🛠️ Project / Exercise
+**Project Name:** Quizzler App (Quiz Game)  
+**Description:**  
+- Fetches 10 multiple-choice True/False questions from Open Trivia API.  
+- Displays each question in a Tkinter window with two buttons (✔ True / ✖ False).  
+- Gives visual feedback (green = correct, red = wrong).  
+- Keeps track of score and shows it on the screen.  
+
+**My Code:**  
+[Link to my code](./Day34_QuizzlerApp/main.py)
+
+### 💡 Challenges I Faced
+- [x] Forgetting to decode HTML entities in API questions → solved with `html.unescape()`  
+- [x] Managing state between GUI and quiz logic → solved using a separate **QuizBrain class**  
+- [x] Preventing UI freeze → avoided using `time.sleep()` and instead used `.after()`  
+
+### 🚀 Extensions / Improvements
+- [ ] Add categories and difficulty selection before starting quiz  
+- [ ] Expand to multiple-choice (not just True/False)  
+- [ ] Add a timer countdown for each question  
+- [ ] Save high scores to a JSON file  
+
+### 📖 Resources
+- Course: Day 34 – API Practice with the Quiz Project  
+- API: [Open Trivia Database](https://opentdb.com/api_config.php)  
+- Docs: [Python html module](https://docs.python.org/3/library/html.html)  
+- Tkinter `.after()`: [Tkdocs reference](https://tkdocs.com/shipman/after.html)
